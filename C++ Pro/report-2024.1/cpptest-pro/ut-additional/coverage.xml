@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2024.1.0" execEnv="win32_x86_64" hasViols="false" project="" buildId="Default Project-2024-07-08" climode="true" toolDispName="C/C++test" toolId="c++test" machine="CD-LYAO-02" tag="Run Unit Tests" time="2024-07-08T10:56:37+08:00" id="1720397292705" lang="en_US" user="lyao" toolName="DTP Engine for C/C++">
+	<TestConfig machine="CD-LYAO-02" pseudoUrl="D:\Cpp-WorkSpace\CPP-PRO-2024-Unit\.cpptest\.dtpengine\session_20240708_105554\Run Unit Tests.properties" name="Run Unit Tests" user="lyao"/>
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1"/>
+	</VersionInfos>
+	<Repositories/>
+	<Locations>
+		<Loc locRef="1" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/DivisionByZero.cpp" uri="file:/D:/reports/projects/flowanalysiscpp/DivisionByZero.cpp" projPath="/flowanalysiscpp-2" hash="-1665970746"/>
+		<Loc locRef="2" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/NullPointer.cpp" uri="file:/D:/reports/projects/flowanalysiscpp/NullPointer.cpp" projPath="/flowanalysiscpp-2" hash="-1257393797"/>
+		<Loc locRef="3" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/DeadLock.cpp" uri="file:/D:/reports/projects/flowanalysiscpp/DeadLock.cpp" projPath="/flowanalysiscpp-2" hash="972801700"/>
+		<Loc locRef="4" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/Shapes.hpp" uri="file:/D:/reports/projects/flowanalysiscpp/Shapes.hpp" projPath="/flowanalysiscpp-2" hash="1537905639"/>
+		<Loc locRef="5" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/Point.hpp" uri="file:/D:/reports/projects/flowanalysiscpp/Point.hpp" projPath="/flowanalysiscpp-2" hash="1950870755"/>
+		<Loc locRef="6" projId="flowanalysiscpp-2" project="flowanalysiscpp-2" resProjPath="flowanalysiscpp/MemoryLeak.cpp" uri="file:/D:/reports/projects/flowanalysiscpp/MemoryLeak.cpp" projPath="/flowanalysiscpp-2" hash="1013754779"/>
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="" tCase=""/>
+		<Test testRef="2" id="CPP://-1310440905974555838"/>
+		<Test testRef="3" id="CPP://-1310440905974555869"/>
+		<Test testRef="4" id="CPP://-1310440905974555900"/>
+		<Test testRef="5" id="CPP://-1310440905974555931"/>
+		<Test testRef="6" id="CPP://-1310440905974555962"/>
+		<Test testRef="7" id="CPP://-1310440905974555993"/>
+		<Test testRef="8" id="CPP://-1310440905974556024"/>
+		<Test testRef="9" id="CPP://-1310440905974556055"/>
+		<Test testRef="10" id="CPP://-1310440905974556086"/>
+		<Test testRef="11" id="CPP://-2821421515886140844"/>
+		<Test testRef="12" id="CPP://-2821421515886140875"/>
+		<Test testRef="13" id="CPP://-2821421515886140906"/>
+		<Test testRef="14" id="CPP://-2821421515886140937"/>
+		<Test testRef="15" id="CPP://-2821421515886140968"/>
+		<Test testRef="16" id="CPP://-2821421515886140999"/>
+		<Test testRef="17" id="CPP://-2821421515886141030"/>
+		<Test testRef="18" id="CPP://-2821421515886141061"/>
+		<Test testRef="19" id="CPP://-2821421515886141092"/>
+		<Test testRef="20" id="CPP://-3117695363872763709"/>
+		<Test testRef="21" id="CPP://-3228911276056597625"/>
+		<Test testRef="22" id="CPP://-3228911276056597656"/>
+		<Test testRef="23" id="CPP://-3228911276056597687"/>
+		<Test testRef="24" id="CPP://-3228911276056597718"/>
+		<Test testRef="25" id="CPP://-3228911276056597749"/>
+		<Test testRef="26" id="CPP://-3228911276056597780"/>
+		<Test testRef="27" id="CPP://-3228911276056597811"/>
+		<Test testRef="28" id="CPP://-3228911276056597842"/>
+		<Test testRef="29" id="CPP://-3228911276056597873"/>
+		<Test testRef="30" id="CPP://-3229859715912214058"/>
+		<Test testRef="31" id="CPP://-3408271269833693363"/>
+		<Test testRef="32" id="CPP://-3408271269833693394"/>
+		<Test testRef="33" id="CPP://-3408271269833693425"/>
+		<Test testRef="34" id="CPP://-3408271269833693456"/>
+		<Test testRef="35" id="CPP://-3408271269833693487"/>
+		<Test testRef="36" id="CPP://-3408271269833693518"/>
+		<Test testRef="37" id="CPP://-3408271269833693549"/>
+		<Test testRef="38" id="CPP://-3408271269833693580"/>
+		<Test testRef="39" id="CPP://-3408271269833693611"/>
+		<Test testRef="40" id="CPP://-3525297356860231530"/>
+		<Test testRef="41" id="CPP://-4740151066101865532"/>
+		<Test testRef="42" id="CPP://-5599700638548186989"/>
+		<Test testRef="43" id="CPP://-65245804478770284"/>
+		<Test testRef="44" id="CPP://-6832847803925518021"/>
+		<Test testRef="45" id="CPP://-6838466007597491343"/>
+		<Test testRef="46" id="CPP://-8518622377662887189"/>
+		<Test testRef="47" id="CPP://-8518622377662887220"/>
+		<Test testRef="48" id="CPP://-8518622377662887251"/>
+		<Test testRef="49" id="CPP://-8518622377662887282"/>
+		<Test testRef="50" id="CPP://-8518622377662887313"/>
+		<Test testRef="51" id="CPP://-8518622377662887344"/>
+		<Test testRef="52" id="CPP://-8518622377662887375"/>
+		<Test testRef="53" id="CPP://-8518622377662887406"/>
+		<Test testRef="54" id="CPP://-8518622377662887437"/>
+		<Test testRef="55" id="CPP://-8872500317516505120"/>
+		<Test testRef="56" id="CPP://-8872500317516505802"/>
+		<Test testRef="57" id="CPP://-8872500317516505833"/>
+		<Test testRef="58" id="CPP://-8872500317516505864"/>
+		<Test testRef="59" id="CPP://-8872500317516505895"/>
+		<Test testRef="60" id="CPP://-8872500317516505926"/>
+		<Test testRef="61" id="CPP://-8872500317516505957"/>
+		<Test testRef="62" id="CPP://-8872500317516505988"/>
+		<Test testRef="63" id="CPP://-8872500317516506019"/>
+		<Test testRef="64" id="CPP://-8872500317516506050"/>
+		<Test testRef="65" id="CPP://-8872500317516506081"/>
+		<Test testRef="66" id="CPP://-8875518163606127455"/>
+		<Test testRef="67" id="CPP://-8875518163606127486"/>
+		<Test testRef="68" id="CPP://-8875518163606127517"/>
+		<Test testRef="69" id="CPP://-8875518163606127548"/>
+		<Test testRef="70" id="CPP://-8875518163606127579"/>
+		<Test testRef="71" id="CPP://-8875518163606127610"/>
+		<Test testRef="72" id="CPP://-8875518163606127641"/>
+		<Test testRef="73" id="CPP://-8875518163606127672"/>
+		<Test testRef="74" id="CPP://-8875518163606127703"/>
+		<Test testRef="75" id="CPP://1178100573410267627"/>
+		<Test testRef="76" id="CPP://1911107906319071152"/>
+		<Test testRef="77" id="CPP://1911107906319071183"/>
+		<Test testRef="78" id="CPP://1911107906319071214"/>
+		<Test testRef="79" id="CPP://1911107906319071245"/>
+		<Test testRef="80" id="CPP://1911107906319071276"/>
+		<Test testRef="81" id="CPP://1911107906319071307"/>
+		<Test testRef="82" id="CPP://1911107906319071338"/>
+		<Test testRef="83" id="CPP://1911107906319071369"/>
+		<Test testRef="84" id="CPP://1911107906319071400"/>
+		<Test testRef="85" id="CPP://2550543809106621092"/>
+		<Test testRef="86" id="CPP://2894141746451524408"/>
+		<Test testRef="87" id="CPP://2894141746451524439"/>
+		<Test testRef="88" id="CPP://2894141746451524470"/>
+		<Test testRef="89" id="CPP://2894141746451524501"/>
+		<Test testRef="90" id="CPP://2894141746451524532"/>
+		<Test testRef="91" id="CPP://2894141746451524563"/>
+		<Test testRef="92" id="CPP://2894141746451524594"/>
+		<Test testRef="93" id="CPP://2894141746451524625"/>
+		<Test testRef="94" id="CPP://2894141746451524656"/>
+		<Test testRef="95" id="CPP://2894141746452820766"/>
+		<Test testRef="96" id="CPP://2903671992933718520"/>
+		<Test testRef="97" id="CPP://2903671992933718551"/>
+		<Test testRef="98" id="CPP://2903671992933718582"/>
+		<Test testRef="99" id="CPP://2903671992933718613"/>
+		<Test testRef="100" id="CPP://2903671992933718644"/>
+		<Test testRef="101" id="CPP://2903671992933718675"/>
+		<Test testRef="102" id="CPP://2903671992933718706"/>
+		<Test testRef="103" id="CPP://2903671992933718737"/>
+		<Test testRef="104" id="CPP://2903671992933718768"/>
+		<Test testRef="105" id="CPP://30475010446159994"/>
+		<Test testRef="106" id="CPP://30475010446160025"/>
+		<Test testRef="107" id="CPP://30475010446160056"/>
+		<Test testRef="108" id="CPP://30475010446160087"/>
+		<Test testRef="109" id="CPP://30475010446160118"/>
+		<Test testRef="110" id="CPP://30475010446160149"/>
+		<Test testRef="111" id="CPP://30475010446160180"/>
+		<Test testRef="112" id="CPP://30475010446160211"/>
+		<Test testRef="113" id="CPP://30475010446160242"/>
+		<Test testRef="114" id="CPP://3422281772000608155"/>
+		<Test testRef="115" id="CPP://3422281772000608186"/>
+		<Test testRef="116" id="CPP://3422281772000608217"/>
+		<Test testRef="117" id="CPP://3422281772000608248"/>
+		<Test testRef="118" id="CPP://3422281772000608279"/>
+		<Test testRef="119" id="CPP://3422281772000608310"/>
+		<Test testRef="120" id="CPP://3422281772000608341"/>
+		<Test testRef="121" id="CPP://3422281772000608372"/>
+		<Test testRef="122" id="CPP://3422281772000608403"/>
+		<Test testRef="123" id="CPP://3759682247767654130"/>
+		<Test testRef="124" id="CPP://3797646684082834195"/>
+		<Test testRef="125" id="CPP://3797646684082834226"/>
+		<Test testRef="126" id="CPP://3797646684082834257"/>
+		<Test testRef="127" id="CPP://3797646684082834288"/>
+		<Test testRef="128" id="CPP://3797646684082834319"/>
+		<Test testRef="129" id="CPP://3797646684082834350"/>
+		<Test testRef="130" id="CPP://3797646684082834381"/>
+		<Test testRef="131" id="CPP://3797646684082834412"/>
+		<Test testRef="132" id="CPP://3797646684082834443"/>
+		<Test testRef="133" id="CPP://3848640243992762047"/>
+		<Test testRef="134" id="CPP://4014083949103077657"/>
+		<Test testRef="135" id="CPP://5104639800773445954"/>
+		<Test testRef="136" id="CPP://5104639800773445985"/>
+		<Test testRef="137" id="CPP://5104639800773446016"/>
+		<Test testRef="138" id="CPP://5104639800773446047"/>
+		<Test testRef="139" id="CPP://5104639800773446078"/>
+		<Test testRef="140" id="CPP://5104639800773446109"/>
+		<Test testRef="141" id="CPP://5104639800773446140"/>
+		<Test testRef="142" id="CPP://5104639800773446171"/>
+		<Test testRef="143" id="CPP://550126905543585349"/>
+		<Test testRef="144" id="CPP://5690435609494920696"/>
+		<Test testRef="145" id="CPP://6036611636000820251"/>
+		<Test testRef="146" id="CPP://6660474185426497386"/>
+		<Test testRef="147" id="CPP://6660474185426497417"/>
+		<Test testRef="148" id="CPP://6660474185426497448"/>
+		<Test testRef="149" id="CPP://6660474185426497479"/>
+		<Test testRef="150" id="CPP://6660474185426497510"/>
+		<Test testRef="151" id="CPP://6660474185426497541"/>
+		<Test testRef="152" id="CPP://6660474185426497572"/>
+		<Test testRef="153" id="CPP://6660474185426497603"/>
+		<Test testRef="154" id="CPP://6660474185426497634"/>
+		<Test testRef="155" id="CPP://8262796541818409323"/>
+		<Test testRef="156" id="CPP://8262796541818409354"/>
+		<Test testRef="157" id="CPP://8262796541818409385"/>
+		<Test testRef="158" id="CPP://8262796541818409416"/>
+		<Test testRef="159" id="CPP://8262796541818409447"/>
+		<Test testRef="160" id="CPP://8262796541818409478"/>
+		<Test testRef="161" id="CPP://8262796541818409509"/>
+		<Test testRef="162" id="CPP://8262796541818409540"/>
+		<Test testRef="163" id="CPP://8262796541818409571"/>
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="fff53137__Z13getShapeRatioP5ShapeS0_" name="getShapeRatio(Shape *, Shape *)" hash="-2005142065"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="5" hashes="2070090220"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="75" elemRefs="5"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="d1742035_main" name="main" hash="1298108855"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="7 8 9 11 13" hashes="264435611 -620226472 212456074 1178067846 1599597842"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="7 2 6 3 4 41 8 9 10" elemRefs="7 8 11"/>
+					<CtxCvg testRefs="5" elemRefs="7 8 9 11 13"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="c8675d5a__ZN6Render13Render_ThreadEPv" name="Render::Render_Thread(void *)" hash="1399331640"/>
+				<Item itemRef="2" id="c8675d5a__Z16GameLogic_ThreadPv" name="GameLogic_Thread(void *)" hash="-119315736"/>
+				<Item itemRef="3" id="c8675d5a__Z14runGameThreadsv" name="runGameThreads()" hash="909438888"/>
+				<Item itemRef="4" id="c8675d5a__Z9assertioniPKc" name="assertion(int, const char *)" hash="1523834980"/>
+				<Item itemRef="5" id="c8675d5a__Z17Controller_ThreadPv" name="Controller_Thread(void *)" hash="-1859933920"/>
+				<Item itemRef="6" id="c8675d5a__ZN6Render4drawEPK5Shape" name="Render::draw(const Shape *)" hash="137052638"/>
+				<Item itemRef="7" id="c8675d5a__ZN7Physics14Physics_ThreadEPv" name="Physics::Physics_Thread(void *)" hash="-318031976"/>
+				<Item itemRef="8" id="c8675d5a__Z15runGameThreads2v" name="runGameThreads2()" hash="1595092506"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="128 130 117 118 119 120 122 123 124 125 126" hashes="1234365944 -1688062501 -1229452372 -2061438629 -1448027104 -1016738356 1544355218 -251104526 -864998869 793595747 -596932643"/>
+				<StatCvg itemRef="2" elems="75" hashes="466607007"/>
+				<StatCvg itemRef="3" elems="136 137 138 139 140 141" hashes="409232213 -1123182240 -2033288726 -1824414877 -1305984162 -604051279"/>
+				<StatCvg itemRef="4" elems="60 61" hashes="-600547524 1274881582"/>
+				<StatCvg itemRef="5" elems="81" hashes="466607007"/>
+				<StatCvg itemRef="6" elems="111" hashes="402"/>
+				<StatCvg itemRef="7" elems="98 100 102 90 91 92 93 94 95" hashes="793595747 1234365944 -1688062501 -1229452372 1544355218 -251104526 -1511312469 929435952 -1599411881"/>
+				<StatCvg itemRef="8" elems="146 147 148 149 150 151" hashes="409232213 -1123182240 -2033288726 -1824414877 -1305984162 -604051279"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="12 19 15 11 13 16 123 18 17" elemRefs="60"/>
+					<CtxCvg testRefs="14" elemRefs="60 61"/>
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="133" elemRefs="75"/>
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="80 81 82 95 78 76 84 77 79 83" elemRefs="136 137 138 139 140 141"/>
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="45" elemRefs="81"/>
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="144" elemRefs="111"/>
+				</DynCvg>
+				<DynCvg itemRef="8">
+					<CtxCvg testRefs="88 90 89 86 40 94 93 87 92 91" elemRefs="146 147 148 149 150 151"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="160 161 159 162 158 163" elemRefs="117 130"/>
+					<CtxCvg testRefs="157 155 156 20" elemRefs="117 118"/>
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="43 105 106" elemRefs="90 91 100"/>
+					<CtxCvg testRefs="107" elemRefs="90 91 92"/>
+					<CtxCvg testRefs="112 108 111 110 113 109" elemRefs="90 102"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="4">
+			<Stats>
+				<Item itemRef="1" id="58db6982__ZN5ShapeC9E5Point" name="Shape::Shape(Point)" hash="-928833381"/>
+				<Item itemRef="2" id="58db6982__ZNK6Circle7getAreaEv" name="Circle::getArea() const" hash="1266875555"/>
+				<Item itemRef="3" id="58db6982__ZN6CircleC9E5Pointd" name="Circle::Circle(Point, double)" hash="-1568284554"/>
+				<Item itemRef="4" id="58db6982__ZN6Circle8containsE5Point" name="Circle::contains(Point)" hash="-178966861"/>
+				<Item itemRef="5" id="58db6982__ZN5Shape11getPositionEv" name="Shape::getPosition()" hash="-1368876919"/>
+				<Item itemRef="6" id="58db6982__ZNK11LineSegment7getAreaEv" name="LineSegment::getArea() const" hash="37041297"/>
+				<Item itemRef="7" id="58db6982__ZN11LineSegmentC9E5PointS0_" name="LineSegment::LineSegment(Point, Point)" hash="452459210"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="12" hashes="469057311"/>
+				<StatCvg itemRef="2" elems="26" hashes="-535658836"/>
+				<StatCvg itemRef="3" elems="25" hashes="1689459350"/>
+				<StatCvg itemRef="4" elems="29" hashes="538754804"/>
+				<StatCvg itemRef="5" elems="10" hashes="-1486716559"/>
+				<StatCvg itemRef="6" elems="19" hashes="-392957557"/>
+				<StatCvg itemRef="7" elems="18" hashes="460467427"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="21 61 59 69 71 103 25 97 63 132 125 57 23 130 55 127 131 124 28 143 29 30 27 1 73 64 65 70 58 96 22 60 62 72 68 145 102 24 98 26 74 129 126 56 128 104 101 66 67 100 99" elemRefs="12"/>
+				</DynCvg>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="70 69 73 72 74 66 68 71 67 143" elemRefs="29"/>
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="70 58 96 61 59 60 69 62 72 68 102 71 103 97 98 63 74 57 55 56 143 30 1 104 73 101 66 64 67 100 99" elemRefs="25"/>
+				</DynCvg>
+				<DynCvg itemRef="7">
+					<CtxCvg testRefs="21 127 128 22 145 131 24 25 124 28 29 27 26 132 125 23 130 65 129 126" elemRefs="18"/>
+				</DynCvg>
+				<DynCvg itemRef="5">
+					<CtxCvg testRefs="70 69 73 72 74 66 68 71 67 143" elemRefs="10"/>
+				</DynCvg>
+				<DynCvg itemRef="6">
+					<CtxCvg testRefs="21 27 26 22 23 24 25 28 65 29" elemRefs="19"/>
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="63 58 61 59 60 62 57 64 55 56" elemRefs="26"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="5">
+			<Stats>
+				<Item itemRef="1" id="f3422034__ZN5Point16squareDistanceToERKS_" name="Point::squareDistanceTo(const Point&amp;)" hash="84281774"/>
+				<Item itemRef="2" id="f3422034__ZN5Point14reflectAcrossXEv" name="Point::reflectAcrossX()" hash="908732704"/>
+				<Item itemRef="3" id="f3422034__ZN5Point9translateERKS_" name="Point::translate(const Point&amp;)" hash="-342769417"/>
+				<Item itemRef="4" id="f3422034__ZN5PointC9Eii" name="Point::Point(int, int)" hash="1433044765"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="21" hashes="150478121"/>
+				<StatCvg itemRef="2" elems="10" hashes="-796707555"/>
+				<StatCvg itemRef="3" elems="16 15" hashes="-1856027609 931387847"/>
+				<StatCvg itemRef="4" elems="7" hashes="-33300074"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="4">
+					<CtxCvg testRefs="21 61 59 69 71 103 46 25 97 48 85 152 63 50 132 154 52 54 33 125 57 122 130 55 23 148 35 150 38 147 127 32 31 120 131 42 124 28 143 119 39 146 30 29 27 121 1 73 5 64 65 96 70 58 22 60 62 72 102 145 68 134 24 98 47 26 53 153 51 74 149 151 34 129 56 126 117 128 36 118 37 116 49 104 101 66 67 114 100 99 44 115" elemRefs="7"/>
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="70 69 72 68 71 143 85 146 152 153 154 73 74 66 149 67 151 148 150 147" elemRefs="21"/>
+				</DynCvg>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="117 7 6 120 118 42 119 116 121 2 3 4 5 41 122 8 114 9 10 115" elemRefs="10"/>
+				</DynCvg>
+				<DynCvg itemRef="3">
+					<CtxCvg testRefs="33 32 134 31 36 34 35 37 38 39" elemRefs="15 16"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+		<CvgData locRef="6">
+			<Stats>
+				<Item itemRef="1" id="443ce1af__Z16readIntegerArrayP6_iobufPi" name="readIntegerArray(_iobuf *, int *)" hash="184377469"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="7 8 9 10 11 14" hashes="-1844934654 1773312110 616861252 700522989 -541829676 1006431594"/>
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="138 140 142 136" elemRefs="7"/>
+					<CtxCvg testRefs="139 137 135" elemRefs="7 8 9 14"/>
+					<CtxCvg testRefs="141" elemRefs="7 8"/>
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>
