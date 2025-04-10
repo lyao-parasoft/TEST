@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?><ResultsSession buildId="Default Project-2025-04-10" climode="false" endTime="2025-04-10T16:52:44+08:00" execEnv="win32_x86_64" hasViols="true" id="1745615995840" lang="en_US" machine="CD-LYAO" project="Default Project" tag="Example Configuration" time="2025-04-10T16:52:44+08:00" toolDispName="SOAtest" toolId="soatest" toolName="SOAtest" toolVer="2023.2.1.202311072000" user="lyao">
+   <TestConfig machine="CD-LYAO" name="Example Configuration" pseudoUrl="soatest.user://Example Configuration" user="lyao"/>
+   <Authors>
+      <Author id="dev1" name="lyao"/>
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.soavirt.desktop.functional.analyzer" name="Parasoft Functional Tests Analyzer" ver="10.6.3.202311072000"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc hash="-19298530" locRef="1" projId="TestAssets" projPath="/TestAssets" project="TestAssets" resProjPath="filecontentcheck.tst" totLns="44" uri="file:/D:/some-ip/8-29/soavirt-someip/soatest/TestAssets/filecontentcheck.tst"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems/>
+
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:03">
+      
+      <AssocUrls>
+         <Tag disp="Requirement" name="req"/>
+         <Tag disp="Feature request" name="fr"/>
+         <Tag disp="Problem report" name="pr"/>
+         <Tag disp="Task" name="task"/>
+         <Tag disp="Asset" name="asset"/>
+         <Tag disp="Test" name="test"/>
+      </AssocUrls>
+   
+      
+      <Categories>
+         <CategoryGroup authTot="3;" authUrg="0;" desc="Functional Test Problems" id="GROUP.FUNC.FAIL" label="Fix Functional Test Problems" name="Functional Test Problems" total="3">
+            <Category authTot="0;" authUrg="0;" id="FUNC.FAIL" name="Functional Failures" short="functional failure" total="0"/>
+            <Category authTot="0;" authUrg="0;" id="XML.VALID.ERROR" name="XML Validation Errors" short="XML validation error" total="0"/>
+            <Category authTot="3;" authUrg="0;" id="MISC.ERR" name="Miscellaneous Errors" short="miscellaneous error" total="3">
+               <Type authTot="3;" authUrg="0;" name="unknown" total="3"/>
+            </Category>
+         </CategoryGroup>
+         <CategoryGroup authTot="0;" authUrg="0;" desc="Change Impact" id="GROUP.CHNG.IMP" label="Review Change Impact" name="Change Impact" total="0">
+            <Category authTot="0;" authUrg="0;" id="CHNG.IMP" name="Change Impact" short="change impact" total="0"/>
+         </CategoryGroup>
+      </Categories>
+      <Projects>
+         <Project err="0" fail="2" id="TestAssets" name="TestAssets" pass="2" total="4">
+            <CategoryGroupStats id="GROUP.FUNC.FAIL" total="3"/>
+            <CategoryGroupStats id="GROUP.CHNG.IMP" total="0"/>
+         </Project>
+      </Projects>
+      
+  <APICoverage>
+    <service type="REST" definition-uri="http://192.168.3.4:8080/v3/api-docs">
+      <resource id="/fileContentCheck/checkFile">
+        <operation name="POST">
+          <test-ref id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000002" pentest="false"/>
+          <test-ref id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000003" pentest="false"/>
+          <test-ref id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000004" pentest="false"/>
+          <test-ref id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000005" pentest="false"/>
+        </operation>
+      </resource>
+    </service>
+  </APICoverage>
+
+      
+  <TrafficData>
+    <Traffic reqHeaders="POST /fileContentCheck/checkFile HTTP/1.1&#xd;&#xa;Host: 192.168.3.4:8080&#xd;&#xa;Content-Type: application/json; charset=UTF-8&#xd;&#xa;Content-Length: 161" serverResTime="758" resBody="{&quot;statusCode&quot;:200,&quot;message&quot;:&quot;Field 'published an event' found&quot;,&quot;matchedLines&quot;:[&quot;Line 1580: 2025-04-08T17:29:42.867+08:00  INFO 43932 --- [http-nio-127.0.0.1-49152-exec-3] c.p.s.someip.common.EcuAppsService       : [0X0001.0x0001.0x00C8] published an event.&quot;],&quot;totalMatchedLines&quot;:1,&quot;nonError&quot;:false,&quot;nonWarning&quot;:false,&quot;warningMessages&quot;:[&quot;Line 307: 2025-04-08 17:29:30.079934 [warning] BLOCKING CALL STATE(0002)&quot;],&quot;errorMessages&quot;:[&quot;Line 36649: 2025-04-08 17:44:03.351547 [info] local_tcp_client_endpoint_impl::vsomeip_v3::local_tcp_client_endpoint_impl::receive_cbk Error: The I/O operation has been aborted because of either a thread exit or an application request&quot;,&quot;Line 36650: 2025-04-08 17:44:03.352024 [info] local_tcp_client_endpoint_impl::vsomeip_v3::local_tcp_client_endpoint_impl::receive_cbk Error: End of file&quot;]}" reqBody="{&quot;fileName&quot;:&quot;D:\\some-ip\\test\\soavirt-someip\\modules\\soavirt-automotive\\someip\\someip-manager\\manager\\ecu2\\ecu.log&quot;,&quot;fieldToCheck&quot;:&quot;published an event&quot;}" resMIMEType="application/json" reqTime="68528067" reqMIMEType="application/json" resHeaders="HTTP/1.1 200 &#xd;&#xa;Content-Type: application/json&#xd;&#xa;Transfer-Encoding: chunked&#xd;&#xa;Date: Thu, 10 Apr 2025 08:52:42 GMT" tfcRef="1"/>
+    <Traffic reqHeaders="POST /fileContentCheck/checkFile HTTP/1.1&#xd;&#xa;Host: 192.168.3.4:8080&#xd;&#xa;Content-Type: application/json; charset=UTF-8&#xd;&#xa;Content-Length: 160" serverResTime="774" resBody="{&quot;statusCode&quot;:200,&quot;message&quot;:&quot;Field 'received an event' found&quot;,&quot;matchedLines&quot;:[&quot;Line 35868: 2025-04-08T17:43:59.323+08:00  INFO 43932 --- [JavaCPP Thread ID 17632] c.p.s.someip.common.EcuAppsService       : [0x0001.0x0001.0x00C8] received an event.&quot;],&quot;totalMatchedLines&quot;:1,&quot;nonError&quot;:false,&quot;nonWarning&quot;:false,&quot;warningMessages&quot;:[&quot;Line 307: 2025-04-08 17:29:30.079934 [warning] BLOCKING CALL STATE(0002)&quot;],&quot;errorMessages&quot;:[&quot;Line 36649: 2025-04-08 17:44:03.351547 [info] local_tcp_client_endpoint_impl::vsomeip_v3::local_tcp_client_endpoint_impl::receive_cbk Error: The I/O operation has been aborted because of either a thread exit or an application request&quot;,&quot;Line 36650: 2025-04-08 17:44:03.352024 [info] local_tcp_client_endpoint_impl::vsomeip_v3::local_tcp_client_endpoint_impl::receive_cbk Error: End of file&quot;]}" reqBody="{&quot;fileName&quot;:&quot;D:\\some-ip\\test\\soavirt-someip\\modules\\soavirt-automotive\\someip\\someip-manager\\manager\\ecu2\\ecu.log&quot;,&quot;fieldToCheck&quot;:&quot;received an event&quot;}" resMIMEType="application/json" reqTime="68529536" reqMIMEType="application/json" resHeaders="HTTP/1.1 200 &#xd;&#xa;Content-Type: application/json&#xd;&#xa;Transfer-Encoding: chunked&#xd;&#xa;Date: Thu, 10 Apr 2025 08:52:44 GMT" tfcRef="2"/></TrafficData>
+      
+  <EnvData/>
+      <FuncAPISecurity pentest="false">
+         
+  <Categories/>
+         
+  <Attacks/>
+      </FuncAPISecurity>
+      
+  <ExecViols>
+    <FuncViol msg="error message check: Element &quot;root&quot; was expected to be empty" loc="/TestAssets/filecontentcheck.tst" ln="-1" sev="1" auth="lyao" locRef="1" violationDetails="Element &quot;root&quot; was expected to be empty" linkableId="error message check1744274719672" startPos="-1" endPos="-1" fatal="false" analyzer="com.parasoft.soavirt.desktop.functional.analyzer" cat="MISC.ERR" testId="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000003" tfcRef="1"/>
+    <FuncViol msg="error message check: Element &quot;root&quot; was expected to be empty" loc="/TestAssets/filecontentcheck.tst" ln="-1" sev="1" auth="lyao" locRef="1" violationDetails="Element &quot;root&quot; was expected to be empty" linkableId="error message check1744274719672" startPos="-1" endPos="-1" fatal="false" analyzer="com.parasoft.soavirt.desktop.functional.analyzer" cat="MISC.ERR" testId="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000005" tfcRef="2"/>
+    <FuncViol msg="String Comparison Assertion: For element &quot;../item&quot;, actual value: Line 35868: 2025-04-08T17:43:59.323+08:00  INFO 43932 --- [JavaCPP Thread ID 17632] c.p.s.someip.common.EcuAppsService       : [0x0001.0x0001.0x00C8] received an event., should start with expected value: received an event. with case sensitivity enforced" loc="/TestAssets/filecontentcheck.tst" ln="-1" sev="1" auth="lyao" locRef="1" violationDetails="For element &quot;../item&quot;, actual value: Line 35868: 2025-04-08T17:43:59.323+08:00  INFO 43932 --- [JavaCPP Thread ID 17632] c.p.s.someip.common.EcuAppsService       : [0x0001.0x0001.0x00C8] received an event., should start with expected value: received an event. with case sensitivity enforced" linkableId="String Comparison Assertion1744275140115" startPos="-1" endPos="-1" fatal="false" analyzer="com.parasoft.soavirt.desktop.functional.analyzer" cat="MISC.ERR" testId="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000005" tfcRef="2"/>
+  </ExecViols>
+
+      
+   <ExecutedTestsDetails functional="true" changeImpact="false" type="FT">
+      <Total fail="2" total="4" pass="2" name="Passed / Total" time="0:00:03.056" authErr="0;" authFail="2;">
+         <Project fail="2" total="4" pass="2" name="TestAssets" time="0:00:03.056" authErr="0;" id="TestAssets" authFail="2;">
+            <TestSuite ln="0" locRef="1" root="true" name="filecontentcheck.tst" id="wk:///TestAssets/filecontentcheck.tst" fail="2" total="4" pass="2" time="0:00:03.056" authErr="0;" authFail="2;">
+               <TestSuite ln="0" locRef="1" name="Test Suite: Test Suite" id="wk:///TestAssets/filecontentcheck.tst#0000000000" fail="2" total="4" pass="2" time="0:00:03.056" authErr="0;" authFail="2;">
+                  <Test ln="0" auth="lyao" locRef="1" name="Test 1: /checkContent service is available - POST" startTime="1744275161807" id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000002" status="pass" total="1" pass="1" time="0:00:00.790" authErr="0;" authFail="0;"/>
+                  <Test ln="0" auth="lyao" locRef="1" name="Test 2: /checkContent published an event - POST" startTime="1744275162598" id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000003" status="fail" tfcRef="1" fail="1" total="1" time="0:00:00.783" authErr="0;" authFail="1;"/>
+                  <Test ln="0" auth="lyao" locRef="1" name="Test 3: /checkContent received an event - POST" startTime="1744275163382" id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000004" status="pass" total="1" pass="1" time="0:00:00.685" authErr="0;" authFail="0;"/>
+                  <Test ln="0" auth="lyao" locRef="1" name="Test 4: /checkContent bad function call - POST" startTime="1744275164068" id="wk:///TestAssets/filecontentcheck.tst#0000000000#0000000005" status="fail" tfcRef="2" fail="1" total="1" time="0:00:00.798" authErr="0;" authFail="1;"/>
+               </TestSuite>
+            </TestSuite>
+         </Project>
+      </Total>
+   </ExecutedTestsDetails>
+
+      
+  <FuncTestDetails/>
+   </Exec>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>
